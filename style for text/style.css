@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(25, 28, 26);
+}
+
+h1 {
+    position: relative;
+    font-size: 8rem;
+    letter-spacing: 15px;
+    color: #10404e;
+    text-transform: uppercase;
+    width: 100%;
+    text-align: center;
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.7rem;
+    outline: none;
+    animation: animate 1.25s ease-in-out infinite;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow:
+        4px -5px 5px rgba(0, 255, 255, 0.3),
+        4px 5px 5px rgba(0, 255, 255, .3),
+        -4px 5px 5px rgba(0, 255, 255, .3),
+        -4px -5px 5px rgba(0, 255, 255, .3);
+    transition: transform 1s ease;
+}
+
+h1:hover {
+    transform: scale(.9);
+}
+
+@keyframes animate {
+    0% {
+        opacity: 1;
+        color: rgb(4, 247, 247);
+    }
+
+    50% {
+        opacity: 0;
+        color: rgb(62, 255, 255);
+    }
+
+    100% {
+        opacity: 1;
+        color: rgb(0, 255, 255);
+    }
+}
+
+
+
+
+.image {
+    margin: 7px;
+    margin-top: 20px;
+    font-size: 10vw;
+    text-align: center;
+    background-image: url("flower2.jpg");
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
