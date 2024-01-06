@@ -1,0 +1,13 @@
+#result {
+    display: inline;
+    background-color: beige;
+    color: green;
+    font-size: 25px;
+}
+
+#p1,
+#p2,
+#p3 {
+    color: red;
+    font-size: 15px;
+}
